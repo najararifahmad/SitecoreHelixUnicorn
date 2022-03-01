@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1800
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{59F3DD8B-6DEA-40FF-9296-DF8E98058FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{814D2C26-AFFF-412F-969E-EEBFF81FFCEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{602D2FFB-8752-4C8F-8C9B-60CF5ED105E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{AA11E614-7A10-424D-AC3A-AF5D57A09E18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicContent", "{707EED5D-4642-42D3-9259-69D2CC3C17BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGBlog.Feature.BasicContent", "code\TGBlog.Feature.BasicContent.csproj", "{AC995796-4921-4DBC-B204-F3C9156797D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{29B9D27E-F670-436C-B774-A46C516B7282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGBlog.Project.Website", "TGBlog.Project.Website\TGBlog.Project.Website.csproj", "{A206248C-65EF-4080-BEBD-EE57F464D9CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{A3795F89-519C-46DE-A2ED-26DE0DDBEACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "Sitecore.Foundation.Serialization\Sitecore.Foundation.Serialization.csproj", "{B8FC4B09-F0DA-4206-87D4-96DA8B6BD67B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC995796-4921-4DBC-B204-F3C9156797D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC995796-4921-4DBC-B204-F3C9156797D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC995796-4921-4DBC-B204-F3C9156797D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC995796-4921-4DBC-B204-F3C9156797D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A206248C-65EF-4080-BEBD-EE57F464D9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A206248C-65EF-4080-BEBD-EE57F464D9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A206248C-65EF-4080-BEBD-EE57F464D9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A206248C-65EF-4080-BEBD-EE57F464D9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FC4B09-F0DA-4206-87D4-96DA8B6BD67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FC4B09-F0DA-4206-87D4-96DA8B6BD67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FC4B09-F0DA-4206-87D4-96DA8B6BD67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FC4B09-F0DA-4206-87D4-96DA8B6BD67B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{707EED5D-4642-42D3-9259-69D2CC3C17BB} = {814D2C26-AFFF-412F-969E-EEBFF81FFCEF}
+		{AC995796-4921-4DBC-B204-F3C9156797D9} = {707EED5D-4642-42D3-9259-69D2CC3C17BB}
+		{29B9D27E-F670-436C-B774-A46C516B7282} = {602D2FFB-8752-4C8F-8C9B-60CF5ED105E3}
+		{A206248C-65EF-4080-BEBD-EE57F464D9CF} = {29B9D27E-F670-436C-B774-A46C516B7282}
+		{A3795F89-519C-46DE-A2ED-26DE0DDBEACB} = {59F3DD8B-6DEA-40FF-9296-DF8E98058FA6}
+		{B8FC4B09-F0DA-4206-87D4-96DA8B6BD67B} = {A3795F89-519C-46DE-A2ED-26DE0DDBEACB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C56D7E0-F551-47FC-84F8-C00CE96B04C6}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
